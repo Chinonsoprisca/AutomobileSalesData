@@ -1,7 +1,5 @@
 # Automobile_Sales_Data
-
-# LITA_CAPSTONE_PROJECT1
-documentation of personal work.
+documentation of my personal work.
 
 ## Project Title
 Sales Performance Analysis for a Retail Store 
@@ -31,40 +29,25 @@ In this project, I am tasked with analysing sales performance of a retail store.
 
 ### Data Source
 ---
-The data used is Lita_Capstone_Dataset (SalesData), which was shared by Ladies In Tech Africa (LITA) through LMS, to be downloaded by her enrolled Data Analysis Students for the Lita_Capstone_Project.
+Automobile Sales Data downloaded from Kaggle was used.
 
 ### Tools Used
 ---
-- Microsoft Excel 
-  1. For Data Cleaning
-  2. For Analysis
-  3. For Visualization
+- Microsoft Excel for Data Cleaning
      
 - SQL - Structured Query Language for Querying of Data
 
-- Power BI - Power Business Intelligence for Data Visualization
-
-- Github for
-  1. Portfolio Building
-  2. Project Submission 
+- Power BI - Power Business Intelligence for Data Visualization 
 
 ### Data Cleaning and Preparations
 ---
 This involves identifying data errors and then changing, updating or removing data to correct them.
 1. Data loading and Inspection
 2. Verifying blank cells
-3. Data Cleaning and Formatting
+3. Formatting
 
 ### Exploratory Data Analysis
 ---
-- What is the total sales by:
-   1. Product
-   2. Region and
-   3. Month
-- Calculate Metrics such as:
-   1. Average sales per product
-   2. Total revenue by region
-      using Excel formulas
 
 ### Data Analysis
 ---
