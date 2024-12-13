@@ -1,5 +1,5 @@
 # Automobile_Sales_Data
-documentation of my personal work.
+Documentation of my personal work.
 
 ## Project Title
 Sales Performance Analysis for a Retail Store 
@@ -25,7 +25,7 @@ Sales Performance Analysis for a Retail Store
 
 ### Project Overview
 ---
-In this project, I am tasked with analysing sales performance of a retail store. it involves exploring sales data to uncover key insights, such as top-selling products, regional performance, and monthly sales trends. The goal is to produce an interactive Power BI dashboard that highlights these findings. 
+This is a personal project where i tasked myself to expolre an automobile sales data, which contained the sales of different kinds of automobile products accross a number of countries, discovering the sales trend and relavant insights using Power BI visuals and SQL queries.  
 
 ### Data Source
 ---
@@ -50,7 +50,7 @@ This involves identifying data errors and then changing, updating or removing da
 ---
 - What is the ovarall sales trend
 - Which products are top sellers
-- What are the products on peak sales
+  
 
 ### Data Analysis
 ---
@@ -132,13 +132,10 @@ GROUP BY Product
 ### Data Visualization
 ---
 
-![Screenshot 2024-11-03 224816](https://github.com/user-attachments/assets/22e80175-5561-46b2-94fd-228622b87214)
+![Screenshot 2024-12-06 215907](https://github.com/user-attachments/assets/3fa25c8b-0c96-498c-8462-292259b85582)
 
-![Screenshot 2024-11-03 224440](https://github.com/user-attachments/assets/2679ebaf-7922-445d-b229-07420d1d0e21)
+![Screenshot 2024-12-06 215819](https://github.com/user-attachments/assets/c77daa2a-e0ad-4ed2-aa59-ed259f485563)
 
-![Screenshot 2024-11-03 224609](https://github.com/user-attachments/assets/6b286016-9469-4ff9-b91f-7616275f3045)
-
-![Power BI Visual](https://github.com/user-attachments/assets/2a424d7a-cac5-454c-8fe0-40e6f2578625)
 
 ### Finding and Recommendation
 - South had the highest sales in both sales year (2023 and 2024).
