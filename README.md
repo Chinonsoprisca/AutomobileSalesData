@@ -48,6 +48,9 @@ This involves identifying data errors and then changing, updating or removing da
 
 ### Exploratory Data Analysis
 ---
+- What is the ovarall sales trend
+- Which products are top sellers
+- What are the products on peak sales
 
 ### Data Analysis
 ---
