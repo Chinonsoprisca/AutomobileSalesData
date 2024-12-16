@@ -50,6 +50,7 @@ This involves identifying data errors and then changing, updating or removing da
 ---
 - What is the ovarall sales trend
 - Which product and counry are top sellers
+- Status of the ordered products
   
 
 ### Data Analysis
@@ -57,7 +58,13 @@ This involves identifying data errors and then changing, updating or removing da
 
 ![Screenshot 2024-11-03 231333](https://github.com/user-attachments/assets/7969f572-3a5e-4919-b970-dad481c712cf)
 
+![Screenshot 2024-12-14 191248](https://github.com/user-attachments/assets/03c7b178-3e38-4d0e-8a64-0c9f49bc3562)
 
+![Screenshot 2024-12-14 191935](https://github.com/user-attachments/assets/337c6fa1-9437-43d8-b523-3d3506d19bdf)
+
+![Screenshot 2024-12-14 185811](https://github.com/user-attachments/assets/cb450528-9876-4a39-8fd6-3d90cd95ce8a)
+
+![Screenshot 2024-12-14 190943](https://github.com/user-attachments/assets/97486a13-b8c0-4818-959b-d23f0e1672f1)
 
 
 ```SQL
@@ -135,10 +142,13 @@ ORDER BY 2 DESC
 
 
 ### Finding and Recommendation
-- 92.41% of the ordered goods were shipped and the rest were either cancelled, on hold, disputed e.t.c
+- 92.41% (2541) of the ordered goods were shipped and the rest were either cancelled, on hold, disputed e.t.c
 - Classic Cars had the highest sales (3,842,869) while Train had the lowest sales (226,243).
 - USA had the highest sales (3,355,576) and Ireland had the lowest sales (490).
-
+-Vintage Car had the highest price tag of 252.87. This made it the most costly product in the 2020 sales year.
+-⁠The data contained 3 consecutive yearly sales (2018 to 2020).⁠
+-⁠2019 had the highest sales (4,669,924.56) while 2020 had lowest sales (1,737,283.09).
+-⁠Euro Shopping Channel is the top 1 customer in quantity ordered and sales.
 
 
 
