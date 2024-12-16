@@ -56,15 +56,17 @@ This involves identifying data errors and then changing, updating or removing da
 ### Data Analysis
 ---
 
-![Screenshot 2024-11-03 231333](https://github.com/user-attachments/assets/7969f572-3a5e-4919-b970-dad481c712cf)
-
 ![Screenshot 2024-12-14 191248](https://github.com/user-attachments/assets/03c7b178-3e38-4d0e-8a64-0c9f49bc3562)
+SQL screenshot 1
 
 ![Screenshot 2024-12-14 191935](https://github.com/user-attachments/assets/337c6fa1-9437-43d8-b523-3d3506d19bdf)
+SQL screenshot 2
 
 ![Screenshot 2024-12-14 185811](https://github.com/user-attachments/assets/cb450528-9876-4a39-8fd6-3d90cd95ce8a)
+SQL screenshot 3
 
 ![Screenshot 2024-12-14 190943](https://github.com/user-attachments/assets/97486a13-b8c0-4818-959b-d23f0e1672f1)
+SQL screenshot 4
 
 
 ```SQL
