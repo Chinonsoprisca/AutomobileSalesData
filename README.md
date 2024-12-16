@@ -1,8 +1,8 @@
 # Automobile_Sales_Data
-Documentation of my personal work.
+
 
 ## Project Title
-Sales Performance Analysis for a Retail Store 
+Automobile sales analysis 
  
 [Project Overview](#project-overview)
 
@@ -25,7 +25,7 @@ Sales Performance Analysis for a Retail Store
 
 ### Project Overview
 ---
-This is a personal project where i tasked myself to expolre an automobile sales data, which contained the sales of different kinds of automobile products accross a number of countries, discovering the sales trend and relavant insights using Power BI visuals and SQL queries.  
+This is a personal project where i tasked myself to expolre an automobile sales data, which contained the sales of different kinds of automobile products accross a number of countries, discovering the sales trend and relavant insights using Power BI visuals and SQL queries. As shown in the screenshot of the table, I compared the total orders of each product line for the different order statuses (Shipped, Cancelled, Resolved, etc). To achieve this, I had to learn to write subqueries and join several subqueries using the JOIN statement. I so much now appreciate SQL as a powerful tool.  
 
 ### Data Source
 ---
@@ -70,7 +70,6 @@ SQL screenshot 4
 
 
 ```SQL
-CREATE DATABASE Practice
 
 SELECT * FROM [dbo].[AutoSalesdata]
 
@@ -143,7 +142,8 @@ ORDER BY 2 DESC
 ![Screenshot 2024-12-06 215819](https://github.com/user-attachments/assets/c77daa2a-e0ad-4ed2-aa59-ed259f485563)
 
 
-### Finding and Recommendation
+### Finding 
+The Status of the order was used as the slicer.
 - 92.41% (2541) of the ordered goods were shipped and the rest were either cancelled, on hold, disputed e.t.c
 - Classic Cars had the highest sales (3,842,869) while Train had the lowest sales (226,243).
 - USA had the highest sales (3,355,576) and Ireland had the lowest sales (490).
@@ -151,14 +151,4 @@ ORDER BY 2 DESC
 -⁠The data contained 3 consecutive yearly sales (2018 to 2020).⁠
 -⁠2019 had the highest sales (4,669,924.56) while 2020 had lowest sales (1,737,283.09).
 -⁠Euro Shopping Channel is the top 1 customer in quantity ordered and sales.
-
-
-
-
-
-The Status of the order was used as the slicer.
-I went further to filter total sales by Productline (e.g Classic Cars) categorized by Dealsize, and discovered that Ships had only medium and small sales.
-- More goods should be supplied to the South since it generates more revenue, this will help to increase sales turnover, more branches can also be established in the South.
-- Different brands of shoes should be supplied to all regions, because customers seem to purchase more of it, and their purchasing interest should be sustained with multi-brand choice.
-- I suggest that more investigation should be carried out on the West store to know the cause of its low sales.
-- it could be that people don't wear Socks much, which causes the sales to be low. If the revenue is not more than the capital, I suggest it should be removed from the stores.
+-I went further to filter total sales by Productline (e.g Classic Cars) categorized by Dealsize, and discovered that Ships had only medium and small sales.
