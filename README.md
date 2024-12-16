@@ -18,14 +18,14 @@ Automobile sales analysis
 
 [Data Visualization](#data-visualization)
 
-[Finding and Recommendation](#finding-and-recommendation)
+[Finding](#finding)
 
 
 
 
 ### Project Overview
 ---
-This is a personal project where i tasked myself to expolre an automobile sales data, which contained the sales of different kinds of automobile products accross a number of countries, discovering the sales trend and relavant insights using Power BI visuals and SQL queries. As shown in the screenshot of the table, I compared the total orders of each product line for the different order statuses (Shipped, Cancelled, Resolved, etc). To achieve this, I had to learn to write subqueries and join several subqueries using the JOIN statement. I so much now appreciate SQL as a powerful tool.  
+This is a personal project where I tasked myself to expolre an automobile sales data, which contained the sales of different kinds of automobile products accross a number of countries, discovering the sales trend and relavant insights using Power BI visuals and SQL queries. As shown in the screenshot of the table, I compared the total orders of each product line for the different order statuses (Shipped, Cancelled, Resolved, etc). To achieve this, I had to learn to write subqueries and join several subqueries using the JOIN statement. I so much now appreciate SQL as a powerful tool.  
 
 ### Data Source
 ---
@@ -49,8 +49,7 @@ This involves identifying data errors and then changing, updating or removing da
 ### Exploratory Data Analysis
 ---
 - What is the ovarall sales trend
-- Which product and counry are top sellers
-- Status of the ordered products
+- Summarize the status of the ordered products
   
 
 ### Data Analysis
@@ -138,17 +137,18 @@ ORDER BY 2 DESC
 ---
 
 ![Screenshot 2024-12-06 215907](https://github.com/user-attachments/assets/3fa25c8b-0c96-498c-8462-292259b85582)
+Page 1
 
 ![Screenshot 2024-12-06 215819](https://github.com/user-attachments/assets/c77daa2a-e0ad-4ed2-aa59-ed259f485563)
-
+Page 2
 
 ### Finding 
 The Status of the order was used as the slicer.
 - 92.41% (2541) of the ordered goods were shipped and the rest were either cancelled, on hold, disputed e.t.c
 - Classic Cars had the highest sales (3,842,869) while Train had the lowest sales (226,243).
 - USA had the highest sales (3,355,576) and Ireland had the lowest sales (490).
--Vintage Car had the highest price tag of 252.87. This made it the most costly product in the 2020 sales year.
--⁠The data contained 3 consecutive yearly sales (2018 to 2020).⁠
--⁠2019 had the highest sales (4,669,924.56) while 2020 had lowest sales (1,737,283.09).
--⁠Euro Shopping Channel is the top 1 customer in quantity ordered and sales.
--I went further to filter total sales by Productline (e.g Classic Cars) categorized by Dealsize, and discovered that Ships had only medium and small sales.
+- Vintage Car had the highest price tag of 252.87. This made it the most costly product in the 2020 sales year.
+-⁠ The data contained 3 consecutive yearly sales (2018 to 2020).⁠
+-⁠ 2019 had the highest sales (4,669,924.56) while 2020 had lowest sales (1,737,283.09).
+- ⁠Euro Shopping Channel is the top 1 customer in quantity ordered and sales.
+- I went further to filter total sales by Productline (e.g Classic Cars) categorized by Dealsize, and discovered that Ships had only medium and small sales.
